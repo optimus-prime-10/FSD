@@ -1,0 +1,26 @@
+JavaScript Variable Naming Conventions
+
+Console Management
+- Clear console: Cmd+K (Mac) or Ctrl+K (Windows)
+- Clear browser data: Right-click reload → "Empty Cache and Hard Reload"
+
+Variable Naming Rules
+1. Use meaningful names that describe the data
+2. Cannot use JavaScript keywords (e.g., var, function)
+3. Cannot start with numbers
+4. Cannot contain spaces
+5. Only allowed characters: letters, numbers, $ and _
+
+Valid vs Invalid Examples
+✓ Valid: myName, userName123, my_variable, $price
+✗ Invalid: var, 123name, my name, my-name
+
+Camel Casing Convention
+- First word lowercase, subsequent words capitalized
+- Example: myVariableName, firstName, totalPrice
+- Improves code readability and prevents confusion
+
+Best Practices
+- Choose descriptive names over short abbreviations
+- Use camelCase for consistency
+- Consider future maintainers of your code

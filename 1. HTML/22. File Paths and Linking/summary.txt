@@ -1,0 +1,36 @@
+# TEACHING ROADMAP
+1. Show students a web page with broken images or links due to incorrect paths.
+2. Ask how the browser finds files and resources.
+3. Introduce the concept of file paths: relative, absolute, and external.
+4. Demonstrate linking to pages, images, and external sites using different paths.
+5. Guide students to fix broken links and images in a sample file (hands-on).
+6. Discuss best practices for organizing files and folders.
+7. Review key points and quiz with common interview questions.
+8. Offer an extra challenge: restructure a project and update all paths accordingly.
+
+# File Paths and Linking - Summary
+
+File paths specify the location of files for links and images. They can be relative or absolute.
+
+## Types of Paths
+- Relative: about.html, images/logo.png
+- Absolute: /contact.html, /assets/images/banner.jpg
+- External: https://www.example.com
+
+## Example
+<a href="about.html">Relative</a>
+<a href="/contact.html">Absolute</a>
+<a href="https://www.example.com">External</a>
+
+## Interview Questions
+
+1. What is the difference between a relative and absolute path?
+   - Relative is based on current file location; absolute starts from the root.
+2. How do you link to an external website?
+   - Use a full URL (e.g., https://...).
+3. How do you reference an image in a subfolder?
+   - Use a relative path (e.g., images/pic.jpg).
+4. What happens if a file path is incorrect?
+   - The resource will not load (broken link or missing image).
+5. Can you use file paths in CSS and JS too?
+   - Yes, for linking stylesheets, scripts, and other resources.

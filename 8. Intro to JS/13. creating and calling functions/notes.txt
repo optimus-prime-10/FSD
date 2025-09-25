@@ -1,0 +1,39 @@
+JAVASCRIPT FUNCTIONS
+===================
+
+WHAT ARE FUNCTIONS?
+-------------------
+Reusable blocks of code that prevent repetition.
+
+SYNTAX
+------
+function functionName() {
+    // code here
+}
+
+functionName(); // call the function
+
+EXAMPLE
+-------
+// Create function
+function greet() {
+    console.log("Hello!");
+    console.log("How are you?");
+}
+
+// Call function
+greet();
+
+KEY POINTS
+----------
+• Use camelCase for names
+• Parentheses () are required
+• Indent code inside braces {}
+• Use console.log() for debugging
+• Follow DRY principle (Don't Repeat Yourself)
+
+BENEFITS
+--------
+• Organize code better
+• Avoid repetition
+• Make code reusable

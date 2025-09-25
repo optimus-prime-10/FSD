@@ -1,0 +1,42 @@
+# Combining CSS Selectors
+
+## Types of Selectors
+
+### Grouping Selectors
+Syntax: `selector1, selector2 { property: value; }`
+Applies same style to multiple selectors.
+```css
+h1, h2 { color: blueviolet; }
+```
+
+### Child Selector (>)
+Syntax: `parent > child { property: value; }`
+Targets direct children only.
+```css
+.box > p { color: firebrick; }
+```
+
+### Descendant Selector (space)
+Syntax: `ancestor descendant { property: value; }`
+Targets any descendant at any depth.
+```css
+.box li { color: blue; }
+```
+
+### Chaining Selectors
+Syntax: `element.class { property: value; }`
+No spaces - targets elements matching ALL selectors.
+```css
+li.done { color: seagreen; }
+```
+
+### Complex Combinations
+```css
+ul p.done { font-size: 0.5rem; }
+```
+
+## Benefits
+- Reduces HTML clutter
+- Precise element targeting
+- Clean code maintenance
+- Increased specificity control

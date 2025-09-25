@@ -1,0 +1,39 @@
+# TEACHING ROADMAP
+1. Show students a list of data (e.g., items and prices) in plain text.
+2. Ask how to organize this data for clarity and comparison.
+3. Introduce the <table>, <tr>, <th>, and <td> elements.
+4. Demonstrate building a simple table in HTML.
+5. Discuss the use of headers, rows, and cells.
+6. Guide students to convert plain data into a table (hands-on).
+7. Review accessibility: using <caption>, scope, and proper structure.
+8. Quiz with common interview questions.
+9. Offer an extra challenge: merge cells or style the table with CSS.
+
+# HTML Tables - Summary
+
+HTML tables are used to display tabular data. The <table> element contains rows (<tr>), headers (<th>), and data cells (<td>).
+
+## Common Elements
+- <table>: Table container
+- <tr>: Table row
+- <th>: Table header cell
+- <td>: Table data cell
+- <thead>, <tbody>, <tfoot>: Table sections
+
+## Example
+<table>
+  <tr><th>Item</th><th>Price</th></tr>
+  <tr><td>Apple</td><td>$1</td></tr>
+</table>
+
+
+1. What is the difference between <th> and <td>?
+   - <th> is for header cells (bold, centered by default), <td> is for data cells.
+2. How do you merge cells in a table?
+   - Use 'colspan' or 'rowspan' attributes on <th> or <td>.
+3. What is the purpose of <thead>, <tbody>, and <tfoot>?
+   - They group header, body, and footer rows for styling and accessibility.
+4. How do you add a border to a table?
+   - Use the 'border' attribute or CSS.
+5. How do you make a table accessible?
+   - Use <caption>, scope attributes, and proper table structure.

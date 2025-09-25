@@ -1,0 +1,27 @@
+RANDOM NUMBER GENERATION IN JAVASCRIPT
+=====================================
+
+MATH.RANDOM() BASICS
+• Generates floating-point numbers from 0 to <1
+• Returns different values each execution
+• Uses pseudo-random algorithms (not truly random)
+
+RANGE CONVERSION
+To get numbers in specific ranges:
+1. Multiply by range size
+2. Use Math.floor() to remove decimals  
+3. Add offset to shift range
+
+Example (1-6 dice roll):
+var dice = Math.floor(Math.random() * 6) + 1;
+
+LOVE CALCULATOR PROJECT
+// Get user input
+prompt("What is your name?");
+prompt("What is their name?");
+
+// Generate score 1-100
+var loveScore = Math.floor(Math.random() * 100) + 1;
+alert("Your love score is " + loveScore + "%");
+
+KEY FORMULA: Math.floor(Math.random() * range) + min

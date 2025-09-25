@@ -1,0 +1,121 @@
+JavaScript Data Types - Interview Questions Detailed Answers
+
+Basic Questions:
+
+1. What are the three primary data types in JavaScript?
+Answer: The three primary data types in JavaScript are:
+- String: Represents text data enclosed in quotation marks (e.g., "Hello", "123", "true")
+- Number: Represents numeric data without quotation marks (e.g., 42, 3.14, -15)
+- Boolean: Represents logical values that can only be true or false
+
+These are considered primitive data types and form the foundation for more complex programming concepts in JavaScript.
+
+3. What is the difference between 23 and "23"?
+Answer: 
+- 23 (without quotes) is a Number data type that can be used in mathematical operations
+- "23" (with quotes) is a String data type that represents text
+- typeof(23) returns "number"
+- typeof("23") returns "string"
+- You can perform math with 23 + 5 = 28
+- But "23" + 5 would result in string concatenation: "235"
+
+4. What values can a Boolean data type have?
+Answer: A Boolean data type can only have two possible values:
+- true (lowercase, no quotes)
+- false (lowercase, no quotes)
+
+Booleans are used for:
+- Conditional statements (if/else)
+- Logical operations
+- Decision-making in programs
+- Representing yes/no, on/off, enabled/disabled states
+
+Note: "true" and "false" (with quotes) are strings, not booleans.
+
+5. How do you check the data type of a variable in JavaScript?
+Answer: Use the typeof() operator:
+- Syntax: typeof(value) or typeof value
+- Returns a string indicating the data type
+- Examples:
+  * typeof(42) returns "number"
+  * typeof("hello") returns "string"
+  * typeof(true) returns "boolean"
+
+This is essential for debugging and ensuring your code works with the correct data types.
+
+Practical Questions:
+
+6. What would typeof("123") return?
+Answer: "string"
+Explanation: Even though "123" looks like a number, the quotation marks make it a string. The content inside quotes is always treated as text, regardless of what characters are used.
+
+7. What would typeof(true) return?
+Answer: "boolean"
+Explanation: true (without quotes) is a boolean literal value. The typeof operator correctly identifies it as a boolean data type.
+
+8. What would typeof(42.5) return?
+Answer: "number"
+Explanation: JavaScript treats both integers (whole numbers) and floating-point numbers (decimals) as the same "number" data type. There's no separate type for decimals.
+
+9. Which of these is a string: hello or "hello"?
+Answer: "hello" is a string.
+Explanation: 
+- hello (without quotes) would be interpreted as a variable name or code
+- "hello" (with quotes) is a string literal
+- If you tried to use hello without quotes and it wasn't defined as a variable, you'd get an error
+
+10. What happens when you write alert(5 + 3)?
+Answer: A pop-up window appears displaying the number 8.
+Explanation:
+- JavaScript first calculates 5 + 3 = 8
+- Then the alert() function displays this result
+- Since 5 and 3 are numbers (no quotes), JavaScript performs mathematical addition
+- The alert converts the number to text for display purposes
+
+Code Analysis:
+
+11. Explain what happens: typeof(typeof(42))
+Answer: This returns "string"
+Explanation:
+- First, typeof(42) returns "number" (a string)
+- Then typeof("number") returns "string"
+- The typeof operator always returns a string, so applying typeof to its result will always give "string"
+
+12. Is "true" the same as true? Why or why not?
+Answer: No, they are not the same.
+Explanation:
+- "true" (with quotes) is a string containing the text "true"
+- true (without quotes) is a boolean value
+- typeof("true") returns "string"
+- typeof(true) returns "boolean"
+- In conditional statements, both would be considered "truthy" but they are fundamentally different data types
+- "true" === true would return false because they're different types
+
+13. What's the difference between 0 and "0"?
+Answer:
+- 0 (without quotes) is a number with the value zero
+- "0" (with quotes) is a string containing the character "0"
+- typeof(0) returns "number"
+- typeof("0") returns "string"
+- In mathematical operations: 0 + 5 = 5
+- In string operations: "0" + 5 = "05" (concatenation)
+- In boolean context: 0 is falsy, but "0" is truthy
+
+Additional Important Notes:
+
+Data Type Conversion:
+- JavaScript can automatically convert between types (type coercion)
+- This can lead to unexpected results if you're not careful
+- Always be explicit about your data types when possible
+
+Best Practices:
+- Use typeof() to verify data types when debugging
+- Be consistent with quotation marks for strings
+- Understand that the console can help you test these concepts
+- Practice identifying data types by looking at code
+
+Common Mistakes:
+- Forgetting quotes around strings
+- Assuming "123" is a number because it contains digits
+- Confusing "true" (string) with true (boolean)
+- Not understanding that typeof always returns a string

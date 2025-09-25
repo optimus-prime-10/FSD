@@ -1,0 +1,44 @@
+# Introduction to JavaScript
+
+## Origins and History
+JavaScript was created by Brendan Eich in just 10 days in 1995 for Netscape Navigator, 
+which dominated the 90s browser market with 80% market share. Originally called "Livescript," 
+it was renamed JavaScript to capitalize on Java's popularity (despite having no relation to Java).
+
+## The Problem It Solved
+Before JavaScript, websites were static. Any interactive functionality required sending 
+requests to servers and receiving new web pages, creating a slow user experience. 
+JavaScript enabled dynamic behavior to run directly in browsers.
+
+## What is "Script"?
+JavaScript is a scripting language that controls web page elements, like how a theater script 
+directs actors. For example:
+- Script tells an h1 element to appear
+- After 1 second, show a paragraph
+- Change text content dynamically
+
+## JavaScript vs Java
+Despite the similar names, JavaScript and Java are completely different:
+- **JavaScript**: Interpreted language that runs in browsers
+- **Java**: Compiled language for applications
+- They have "about as much in common as car and carpet"
+
+## Modern Importance
+JavaScript is now essential for the modern web:
+- Supported by all major browsers
+- Most popular programming language (2018 RedMonk survey)
+- Powers everything from simple animations to complex web applications
+- Sites like YouTube, Netflix, and Twitter require JavaScript to function
+
+## Key Naming Facts
+- **Livescript** → **JavaScript** → standardized as **ECMAScript**
+- ES6, ES7, etc. refer to ECMAScript versions
+- Microsoft created "JScript" as their version
+
+## When to Learn JavaScript
+Choose JavaScript if you want to build:
+- Websites and web applications
+- Interactive user interfaces
+- Modern web experiences
+
+JavaScript evolved from a simple 10-day solution into the language that powers the entire web.

@@ -1,0 +1,38 @@
+# GitHub Hosting - Quick Guide
+
+## What is Web Hosting?
+Making websites available on the Internet by uploading files to a web server. Local files are only accessible on your computer; hosted files are accessible worldwide.
+
+## Steps to Host on GitHub Pages
+
+### 1. Create Repository
+- Go to github.com → "+" → "New repository"
+- Name: `html-portfolio`
+- Set to **Public** (required)
+- Click "Create Repository"
+
+### 2. Upload Files
+- Click "Add file" → "Upload files"
+- Upload folder contents (not folder itself)
+- Ensure main file is named `index.html`
+- Include all images and subfolders
+
+### 3. Enable GitHub Pages
+- Go to **Settings** → **Pages**
+- Select **main** branch → "Save"
+- Wait 1-10 minutes for processing
+
+### 4. Access Live Site
+- Click "Visit site" to view online
+- Share URL with others
+
+## Key Requirements
+- Repository must be **public**
+- Main file must be named `index.html`
+- Include all website files and folders
+
+## Benefits
+- Free hosting
+- Global accessibility
+- Professional web address
+- Easy sharing

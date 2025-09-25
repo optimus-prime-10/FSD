@@ -1,0 +1,50 @@
+# TEACHING ROADMAP
+1. Show students a blank HTML file and ask what is missing for a valid web page.
+2. Introduce the concept of boilerplate code and its importance.
+3. Demonstrate the essential tags: <!DOCTYPE html>, <html>, <head>, <body>.
+4. Guide students to build a basic HTML boilerplate from scratch (hands-on).
+5. Discuss the purpose of meta tags and the <title> element.
+6. Review key points and quiz with common interview questions.
+7. Offer an extra challenge: add language attributes and extra meta tags for SEO or responsiveness.
+
+# HTML Boilerplate - Summary
+
+An HTML boilerplate is a starting template for new HTML documents, including essential tags and meta information.
+
+## Example
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+</head>
+<body>
+  <!-- Content -->
+</body>
+</html>
+
+## Interview Questions
+
+1. What is the purpose of the <!DOCTYPE html> declaration?
+   - It tells the browser to use HTML5.
+2. Why should you include <meta charset="UTF-8">?
+   - To ensure correct character encoding.
+3. What does the viewport meta tag do?
+   - Controls layout on mobile browsers for responsive design.
+4. Where should the <title> tag be placed?
+   - Inside the <head> section.
+5. What is the minimum required structure for a valid HTML5 document?
+   - <!DOCTYPE html>, <html>, <head>, <body>.
+
+
+To control layout on mobile browsers for responsive design, you use the viewport meta tag in your HTML’s <head> section. This tag tells the browser how to adjust the page’s dimensions and scaling to fit the device’s screen.
+Example:
+>
+How it works:
+width=device-width sets the page width to match the device’s screen width.
+initial-scale=1.0 sets the initial zoom level when the page is first loaded.
+Why it matters:
+Without this tag, mobile browsers may display your site zoomed out, making it look tiny and not mobile-friendly. With the viewport tag, your layout adapts to different screen sizes, making your site responsive.
+Summary:
+The viewport meta tag is essential for responsive web design because it ensures your layout scales and fits properly on all devices, especially mobiles and tablets.

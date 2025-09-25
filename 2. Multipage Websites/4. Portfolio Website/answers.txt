@@ -1,0 +1,7 @@
+1. Key components include a main page (index.html), project pages, About Me, Contact Me, and images/screenshots.
+2. Organize files with a clear folder structure: index.html in the root, public/ for extra pages, assets/images/ for images.
+3. Relative paths are important for portability and to ensure links work if the project is moved.
+4. Add a project screenshot using the <img> tag with the src attribute pointing to the image file.
+5. About Me and Contact Me pages provide personal and contact information for visitors or employers.
+6. Improve accessibility by using semantic HTML, alt text for images, and ensuring keyboard navigation.
+7. Best practices include regularly updating content, testing links, and keeping the design clean and organized.

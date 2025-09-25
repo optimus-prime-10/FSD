@@ -1,0 +1,46 @@
+# Birthday Invite Project Summary
+
+## Project Overview
+Create a retro 90s style birthday invitation website.
+Combine all learned HTML elements in a project.
+Announce birthday details, date, images, and info.
+
+## Key Components
+- Main heading (h1) for "My Birthday"
+- Subheadings (h2, h3) for sections
+- Image with src and alt for accessibility
+- Unordered list for what to bring
+- Anchor tag linking to Google Maps
+
+## Technical Elements
+- HTML heading tags (h1, h2, h3)
+- Image tag with src and alt
+- Unordered list (ul) with list items (li)
+- Anchor tag (a) with href for navigation
+
+## Guidelines
+- At least one image, one list, one anchor tag
+- Customize based on your style
+- Focus on practice, not strict solutions
+
+## Learning Outcomes
+- Apply HTML in real-world scenario
+- Understand accessibility with alt text
+- Link to external resources (Google Maps)
+- Develop personal coding style and creativity
+
+## Project Result
+Shows integration of HTML concepts in a user-friendly invite.
+
+## Interview Questions
+
+1. Which HTML elements are essential for a basic web page?
+   - Headings, paragraphs, images, lists, and links.
+2. How do you ensure accessibility in a project?
+   - Use alt text for images, proper heading structure, and semantic tags.
+3. How do you link to an external resource like Google Maps?
+   - Use an <a> tag with the href set to the map URL.
+4. Why is it important to use lists for items like 'what to bring'?
+   - Lists provide structure and improve readability and accessibility.
+5. How can you customize the appearance of your HTML project?
+   - Use CSS for styling and layout adjustments.

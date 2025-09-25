@@ -1,0 +1,31 @@
+FOR LOOPS IN JAVASCRIPT
+
+Structure:
+for (start; condition; increment) {
+    // code to repeat
+}
+
+Example:
+for (var i = 1; i < 3; i++) {
+    console.log(i);
+}
+// Output: 1, 2
+
+Common Patterns:
+// Count up
+for (var i = 0; i < 5; i++) { }
+
+// Count down  
+for (var i = 5; i > 0; i--) { }
+
+// Different increment
+for (var i = 0; i < 10; i += 2) { }
+
+When to Use:
+- FOR LOOP: When you know how many times to repeat
+- WHILE LOOP: When you don't know how many times
+
+Benefits:
+- Concise syntax
+- All loop info in one line
+- Perfect for counting and arrays

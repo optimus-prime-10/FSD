@@ -1,0 +1,9 @@
+CSS Display Property (Concise)
+
+- The display property controls how elements are shown on a page.
+- Main values:
+  - block: Full width, new line (e.g., <div>)
+  - inline: Only content width, same line (e.g., <span>)
+  - inline-block: Same line, but can set width/height
+  - none: Hides the element
+- Use display to control layout and visibility.

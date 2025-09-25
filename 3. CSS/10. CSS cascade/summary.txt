@@ -1,0 +1,43 @@
+# CSS CASCADE
+
+## What is CSS Cascade?
+Browser resolves conflicting CSS rules using cascade priority.
+
+## Four Priority Rules (highest to lowest)
+
+### 1. Importance
+`!important` overrides everything.
+
+### 2. Type  
+- Inline styles (highest)
+- Internal `<style>` 
+- External `<link>` (lowest)
+
+### 3. Specificity
+- ID (#id) - highest
+- Class (.class) 
+- Element (div) - lowest
+
+### 4. Position
+Later rules override earlier ones.
+
+## Key Examples
+- ID beats class: `#header` > `.title`
+- Inline beats internal/external
+- Lower CSS rule beats upper rule
+- `!important` beats everything
+
+## Quick Reference
+```css
+/* Specificity: 1 point */
+div { color: blue; }
+
+/* Specificity: 10 points */  
+.title { color: red; }
+
+/* Specificity: 100 points */
+#header { color: green; }
+
+/* Wins regardless of specificity */
+div { color: yellow !important; }
+```

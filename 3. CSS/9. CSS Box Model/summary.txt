@@ -1,0 +1,42 @@
+# CSS Box Model
+
+## Core Components
+1. **Content** - Text, images, actual content
+2. **Padding** - Space inside element (between content and border)
+3. **Border** - Visible boundary around element
+4. **Margin** - Space outside element (between elements)
+
+## Syntax
+- Border: `border: 10px solid black;`
+- Padding: `padding: 20px;`
+- Margin: `margin: 10px;`
+
+## Multiple Values (Clockwise)
+- 1 value: all sides
+- 2 values: top/bottom, left/right  
+- 4 values: top, right, bottom, left
+
+## Key Concepts
+- Total size = content + padding + border + margin
+- Padding increases internal space
+- Margin creates space between elements
+
+## Debugging
+- Browser Dev Tools: Inspect element for box model visualization
+- Pesticide Extension: Outlines all boxes on page
+
+## Example
+```css
+div {
+  width: 200px;
+  padding: 20px;
+  border: 10px solid black;
+  margin: 10px;
+}
+```
+
+## Common Uses
+- **Cards**: padding for spacing, borders for definition
+- **Navigation**: margins between menu items  
+- **Forms**: padding in input fields
+- **Layouts**: margins between sections

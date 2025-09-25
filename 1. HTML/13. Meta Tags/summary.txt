@@ -1,0 +1,39 @@
+# TEACHING ROADMAP
+1. Show students a basic HTML page with no meta tags.
+2. Ask what information browsers and search engines need about a page.
+3. Introduce common meta tags: charset, viewport, description, keywords, author.
+4. Demonstrate adding meta tags to the <head> section.
+5. Discuss the impact on SEO, accessibility, and mobile responsiveness.
+6. Guide students to add meta tags to a sample HTML file (hands-on).
+7. Review key points and quiz with common interview questions.
+8. Offer an extra challenge: research and add Open Graph or Twitter meta tags.
+
+# Meta Tags - Summary
+
+Meta tags provide metadata about the HTML document, such as character set, author, description, and viewport settings. They are placed inside the <head> section.
+
+## Common Meta Tags
+- <meta charset="UTF-8">
+- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- <meta name="description" content="...">
+- <meta name="keywords" content="...">
+- <meta name="author" content="...">
+
+## Example
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+## Interview Questions
+
+1. What is the purpose of the <meta charset="UTF-8"> tag?
+   - It sets the character encoding for the document to UTF-8.
+2. Why is the viewport meta tag important for mobile web?
+   - It controls layout on mobile browsers for responsive design.
+3. How do meta tags help with SEO?
+   - Description and keywords meta tags help search engines understand page content.
+4. Where should meta tags be placed in an HTML document?
+   - Inside the <head> section.
+5. What does the author meta tag do?
+   - Specifies the author of the document.

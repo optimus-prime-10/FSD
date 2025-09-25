@@ -1,0 +1,41 @@
+# While Loops
+
+## Syntax
+```javascript
+while (condition) {
+    // code to repeat
+}
+```
+
+## How It Works
+Repeats code while condition is true. Stops when condition becomes false.
+
+## Example
+```javascript
+let i = 1;
+while (i < 3) {
+    console.log(i);
+    i++;
+}
+// Output: 1, 2
+```
+
+## Infinite Loop Warning
+Always update your loop variable or the loop runs forever:
+```javascript
+let i = 1;
+while (i < 10) {
+    console.log(i);
+    // Missing: i++; ← This crashes the browser!
+}
+```
+
+## Key Rules
+- Always update the loop variable
+- Ensure condition can become false
+- Test with small numbers first
+
+## When to Use
+- Unknown number of iterations
+- Condition depends on user input
+- Simple repetitive tasks

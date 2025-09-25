@@ -1,0 +1,39 @@
+# Portfolio Website Project
+
+## Overview
+Create a Web Developer Portfolio using HTML to showcase projects and provide professional online presence.
+
+## Structure
+```
+Portfolio Website/
+├── index.html (main page)
+├── public/
+│   ├── about.html
+│   ├── contact.html
+│   └── project pages
+└── assets/images/ (screenshots)
+```
+
+## Key Components
+- Main page with project showcase
+- Project screenshots (height="200")
+- Internal navigation links
+- About Me and Contact pages
+
+## Implementation
+1. Create HTML boilerplate
+2. Add project screenshots and links
+3. Create About/Contact pages
+4. Test all internal links
+
+## Best Practices
+- Use semantic HTML
+- Organize files logically
+- Add alt text to images
+- Use proper heading structure
+- Keep content updated
+
+## Interview Questions
+1. How do you organize files for a multi-page portfolio?
+2. Why use relative paths for internal links?
+3. What are key components of a portfolio website?

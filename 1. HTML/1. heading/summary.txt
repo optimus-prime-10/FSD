@@ -1,0 +1,21 @@
+Heading tags in HTML (h1-h6) are used to define headings, create structure, and improve accessibility and SEO.
+Use <h1> for the main title, <h2> for subheadings, and so on, to organize content hierarchically.
+
+---
+
+Interview Questions on HTML Heading Tags:
+
+1. What is the purpose of heading tags in HTML?
+Answer: Heading tags (h1-h6) define headings and subheadings, create a content hierarchy, and improve accessibility and SEO.
+
+2. How many levels of heading tags are available in HTML?
+Answer: There are six levels, from <h1> (most important) to <h6> (least important).
+
+3. Why should you use heading tags in order (h1, h2, h3, etc.)?
+Answer: Using them in order creates a logical structure, which helps users and search engines understand the content organization.
+
+4. Can you have more than one <h1> tag on a page?
+Answer: Technically yes, but it is best practice to use only one <h1> for the main title to maintain clear structure and SEO benefits.
+
+5. How do heading tags affect accessibility?
+Answer: Screen readers use heading tags to navigate and understand the structure of a page, making content more accessible to users with disabilities.

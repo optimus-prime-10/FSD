@@ -1,0 +1,19 @@
+CSS QUIZ
+
+1. Inline CSS syntax:
+A) <element style="CSS code">
+B) <element css="CSS code">
+C) <element inline="CSS code">
+D) <element addcss="CSS code">
+
+2. Internal stylesheet syntax:
+A) <html><style>CSS code</style></html>
+B) <body><style>CSS code</style></body>
+C) <head><style>CSS code</style></head>
+D) <style>CSS code</style>
+
+3. External stylesheet syntax:
+A) <style href="style.css" rel="stylesheet"/>
+B) <link href="style.css" rel="stylesheet"/>
+C) <link src="style.css" rel="stylesheet"/>
+D) <style src="style.css" type="text/css"/>

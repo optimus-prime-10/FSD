@@ -1,0 +1,35 @@
+JavaScript Variables - Interview Question Answers
+
+Basic Level Answers:
+
+1. What is a variable in JavaScript?
+   Answer: A variable is a container that stores data in computer memory, like a labeled box that holds information.
+
+2. How do you declare a variable in JavaScript?
+   Answer: Use the `var` keyword: var variableName = value;
+
+3. What's the difference between declaring and updating a variable?
+   Answer: Declaring uses `var` (var name = "John"), updating doesn't (name = "Jane").
+
+4. How do you get user input in JavaScript?
+   Answer: Use prompt(): var input = prompt("Enter your name");
+
+5. How do you display a variable's value to the user?
+   Answer: Use alert(): alert(variableName);
+
+Intermediate Level Answers:
+
+6. What happens if you use a variable before declaring it?
+   Answer: It will result in an error or undefined behavior.
+
+7. Can you change a variable's value after creating it?
+   Answer: Yes, you can reassign values: myVar = newValue;
+
+8. How do you combine variables with text?
+   Answer: Use the + operator: "Hello " + userName + "!";
+
+9. What's the purpose of variables in programming?
+   Answer: To store, remember, and reuse data; avoid repetition; create dynamic programs.
+
+10. Give an example of when you'd use variables in a real program.
+    Answer: Tracking user scores, storing form input, managing game states, etc.

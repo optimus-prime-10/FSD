@@ -1,0 +1,6 @@
+px : absolute size no matter what
+% : size wrt parent
+vw : % of the entire scree, 1vw = 1% of total width of the screen
+vh : % of the entire scree, 1vh = 1% of total height of the screen
+rem : relate to root
+em : relative to parent

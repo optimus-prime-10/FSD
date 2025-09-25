@@ -1,0 +1,21 @@
+JavaScript Arithmetic Operators
+
+Basic Operators:
++ (addition), - (subtraction), * (multiplication), / (division)
+
+Modulo Operator (%):
+- Returns remainder after division
+- Examples: 9 % 6 = 3, 12 % 8 = 4
+- Use case: Check odd/even (number % 2 = 0 is even)
+
+Operator Precedence:
+- Multiplication/Division first, then Addition/Subtraction
+- 3 + 5 * 2 = 13 (not 16)
+- Use parentheses: (3 + 5) * 2 = 16
+
+Example - Dog Age Converter:
+Formula: ((dogAge - 2) * 4) + 21
+
+var dogAge = prompt('How old is your dog?');
+var humanAge = ((dogAge - 2) * 4) + 21;
+alert('Your dog is ' + humanAge + ' years old in human years.');

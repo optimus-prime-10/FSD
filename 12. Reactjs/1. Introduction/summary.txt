@@ -1,0 +1,14 @@
+- Building user interfaces with components
+- Using, Sharing and Outputting Data
+- Handling user inputs
+- Building Interactive UIs with State
+
+
+working with components is the most important in react apps
+in google.com you can see components
+
+
+without components we might have to create a very large html file
+and also probably have duplicated code
+
+separation of concerns

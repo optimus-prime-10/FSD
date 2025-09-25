@@ -1,0 +1,19 @@
+Combining Comparators
+
+Logical Operators:
+- AND (&&): Both conditions must be true
+- OR (||): Either condition can be true  
+- NOT (!): Opposite of the condition
+
+Grade Calculator Example:
+if (marks >= 90) {
+  alert("Grade A");
+} else if (marks >= 75 && marks < 90) {
+  alert("Grade B");
+} else if (marks >= 33 && marks < 75) {
+  alert("Grade C");
+} else {
+  alert("Fail");
+}
+
+Use Cases: Grade ranges, age filtering, price tiers, performance levels

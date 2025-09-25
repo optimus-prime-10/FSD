@@ -1,0 +1,38 @@
+# HTML Boilerplate Summary
+
+## What is HTML Boilerplate?
+Standard template structure every HTML file needs. Foundation for all web pages.
+
+## Basic Structure
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <!-- All visible content goes here -->
+</body>
+</html>
+```
+
+## Key Components
+1. **DOCTYPE**: `<!DOCTYPE html>` - tells browser it's HTML5
+2. **HTML Root**: `<html lang="en">` - contains everything
+3. **Head**: metadata (charset, title, viewport) - not visible
+4. **Body**: all visible content
+
+
+
+## Quick Tips
+- VS Code shortcut: Type "!" + Enter for instant boilerplate
+- Always use proper indentation
+- Include charset and viewport meta tags
+
+## Interview Questions
+1. What is HTML boilerplate and why is it important?
+2. What does `<!DOCTYPE html>` do?
+3. What's the difference between `<head>` and `<body>`?
+4. How do you quickly generate boilerplate in VS Code?

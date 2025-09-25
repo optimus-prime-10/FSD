@@ -1,0 +1,30 @@
+Flex Direction in Flexbox - Summary
+
+- The `flex-direction` property in Flexbox determines the main axis along which items are laid out in a flex container.
+- By default, `flex-direction` is set to `row`, so items are arranged horizontally (left to right). Changing it to `column` stacks items vertically (top to bottom).
+- The main axis is defined by `flex-direction` (horizontal for `row`, vertical for `column`), and the cross axis is always perpendicular to the main axis.
+- The `flex-basis` property sets the size of flex items along the main axis. For example, with `flex-direction: column`, `flex-basis` sets the height; with `row`, it sets the width.
+- To target all direct children of a container for styling, use the child combinator (`>`):
+
+  Example:
+  ```css
+  .container > * {
+    flex-basis: 100px;
+  }
+  ```
+- To make the container only as wide as its content, use `display: inline-flex`:
+
+  Example:
+  ```css
+  .container {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  ```
+- Experiment with `flex-direction`, `flex-basis`, and `display: inline-flex` to see how they affect layout and sizing.
+
+Key Takeaways:
+- `flex-direction` sets the main axis (row = horizontal, column = vertical).
+- `flex-basis` controls item size along the main axis and is set on children.
+- Use CSS combinators like `.container > *` to style direct children.
+- `display: inline-flex` makes the container shrink to fit its content.

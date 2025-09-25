@@ -1,0 +1,30 @@
+PARAMETERS AND ARGUMENTS
+
+OVERVIEW
+Parameters are inputs that make functions dynamic and reusable.
+Parameter = input name in function definition
+Argument = actual value passed when calling function
+
+SYNTAX
+function functionName(parameter) {
+    // code using parameter
+}
+functionName(argument); // calling with argument
+
+EXAMPLE: getMilk Function
+function getMilk(money) {
+    var bottles = Math.floor(money / 1.5);
+    console.log('buy ' + bottles + ' bottles of milk');
+}
+
+getMilk(5); // Output: "buy 3 bottles of milk"
+
+KEY CONCEPTS
+• Parameters act like variables inside functions
+• Math.floor() rounds down to nearest integer
+• Functions with parameters are more flexible and reusable
+
+BENEFITS
+• Same function works with different inputs
+• More dynamic and flexible code
+• Better code reusability

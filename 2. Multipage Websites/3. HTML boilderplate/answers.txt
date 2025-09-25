@@ -1,0 +1,7 @@
+1. An HTML boilerplate is a standard starting structure for HTML documents. It ensures all necessary elements are present for browser compatibility and best practices.
+2. The <!DOCTYPE html> declaration tells the browser to use HTML5 standards for rendering the page.
+3. The <meta charset="UTF-8"> tag ensures the document uses UTF-8 character encoding, supporting a wide range of characters.
+4. The <head> section contains metadata, links to stylesheets, and other information not visible on the page.
+5. In VS Code, you can type '!' and press Enter to quickly generate boilerplate code in a new HTML file.
+6. Best practices include using proper indentation, including meta tags, setting the language attribute, and removing deprecated tags.
+7. If you forget the boilerplate structure, your HTML page may not render correctly or may have compatibility issues.

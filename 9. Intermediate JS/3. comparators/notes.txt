@@ -1,0 +1,61 @@
+COMPARATORS AND EQUALITY
+
+What are Comparators?
+Comparators are symbols that compare two values.
+They help us test conditions in if-else statements.
+Examples: >, <, ===, !==, >=, <=
+
+Types of Comparators:
+=== (triple equals): Checks value AND data type
+== (double equals): Checks value only, ignores type
+!== (not equal): Checks if values are different
+> (greater than): Checks if left is bigger
+< (less than): Checks if left is smaller
+>= (greater or equal): Checks if left is bigger or same
+<= (less or equal): Checks if left is smaller or same
+
+Key Difference: === vs ==
+Triple equals (===) is stricter:
+- Checks both value and data type
+- Recommended for most cases
+
+Double equals (==) is looser:
+- Checks value only
+- Ignores data type differences
+
+Example - Type Checking:
+let a = 1;        // number
+let b = "1";      // string
+
+if (a === b) {
+    console.log("yes");  // prints "no"
+} else {
+    console.log("no");   // because types don't match
+}
+
+if (a == b) {
+    console.log("yes");  // prints "yes"
+} else {
+    console.log("no");   // because values are same
+}
+
+Real-World Application:
+Love Calculator with Ranges:
+- Score 1-30: "Low score"
+- Score 31-70: "Medium score"  
+- Score 71-100: "High score"
+
+This requires combining comparators:
+if (score >= 1 && score <= 30) {
+    // low range
+} else if (score > 30 && score <= 70) {
+    // medium range
+} else if (score > 70 && score <= 100) {
+    // high range
+}
+
+Best Practices:
+- Use === for equality (safer)
+- Use == only when you need type conversion
+- Test your comparisons thoroughly
+- Use parentheses for complex conditions

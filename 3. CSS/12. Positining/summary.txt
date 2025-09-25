@@ -1,0 +1,24 @@
+CSS Positioning – Quick Summary
+
+- Static: Default; elements follow normal flow; can’t use top/left/right/bottom.
+- Relative: Moves element from its normal spot; uses top/left/right/bottom; other elements stay put.
+- Absolute: Positions relative to nearest positioned ancestor (else page); removed from flow.
+- Fixed: Positions relative to viewport; stays put on scroll; removed from flow.
+
+z-index: Controls stacking order (higher = on top); works with positioned elements.
+
+Key Properties: top, left, right, bottom (offsets element as per positioning type).
+
+Common Uses:
+- Relative + absolute for overlays/tooltips.
+- Fixed for sticky navbars, floating buttons.
+
+Best Practices:
+- Use relative on parent for absolute children.
+- Don’t overuse absolute/fixed/z-index.
+- Test for responsiveness.
+
+Pitfalls:
+- Forgetting parent’s relative for absolute children.
+- Overusing z-index.
+- Not realizing absolute/fixed removes from flow.

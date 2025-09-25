@@ -1,0 +1,23 @@
+CSS Color Properties - Summary
+
+## Main Properties
+- `background-color`: Sets background color of elements
+- `color`: Sets text color of elements
+
+## Color Methods
+1. **Named Colors**: Predefined names (red, blue, cornflowerblue)
+   - Simple syntax but limited options
+   
+2. **Hex Codes**: Numbers/letters representing RGB values (#FF0000)
+   - More color options than named colors
+   - Format: #RRGGBB (Red, Green, Blue)
+
+## Resources
+- MDN Documentation: Complete named color list
+- Color Hunt (colorhunt.co): Professional color palettes
+
+## Key Points
+- Named colors: Easy but limited
+- Hex codes: More variety and precision
+- Consider accessibility and contrast
+- Test across browsers/devices

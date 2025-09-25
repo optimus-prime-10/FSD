@@ -1,0 +1,38 @@
+# TEACHING ROADMAP
+1. Show students a web page where special characters (like <, >, &) break the layout.
+2. Ask how to display these characters in HTML.
+3. Introduce the concept of HTML entities and why they're needed.
+4. Demonstrate using common entities (&lt;, &gt;, &amp;, etc.).
+5. Guide students to fix broken code by replacing characters with entities (hands-on).
+6. Discuss additional entities for symbols and accented characters.
+7. Review key points and quiz with common interview questions.
+8. Offer an extra challenge: use entities to create a copyright or trademark notice.
+
+# HTML Entities - Summary
+
+HTML entities are used to display reserved characters or symbols in HTML that would otherwise be interpreted as code.
+
+## Common Entities
+- &lt; for <
+- &gt; for >
+- &amp; for &
+- &quot; for "
+- &apos; for '
+- &copy; for ©
+- &nbsp; for non-breaking space
+
+## Example
+<p>5 &lt; 10 &amp; 10 &gt; 5</p>
+
+## Interview Questions
+
+1. What is an HTML entity?
+   - A special code to display reserved or special characters in HTML.
+2. Why do we use &lt; and &gt; instead of < and > in HTML?
+   - To prevent the browser from interpreting them as tags.
+3. How do you display a copyright symbol in HTML?
+   - Use &copy;.
+4. What is the entity for a non-breaking space?
+   - &nbsp;
+5. Can you use entities for accented characters?
+   - Yes, e.g., &eacute; for é.

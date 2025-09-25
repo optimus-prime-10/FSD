@@ -1,0 +1,25 @@
+# JavaScript String Casing
+
+## Methods
+- `toUpperCase()` - converts to UPPERCASE
+- `toLowerCase()` - converts to lowercase
+
+## Usage
+```javascript
+var name = "John";
+name.toUpperCase(); // Returns "JOHN"
+name.toLowerCase(); // Returns "john"
+```
+
+## Important
+- Original variable unchanged
+- Must save result: `name = name.toUpperCase();`
+
+## Challenge
+Create a name formatter that capitalizes first letter only:
+1. Get user input
+2. Make lowercase
+3. Capitalize first letter
+4. Display result
+
+Example: "john" → "John"

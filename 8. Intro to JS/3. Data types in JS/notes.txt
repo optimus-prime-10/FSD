@@ -1,0 +1,68 @@
+JavaScript Data Types - Summary
+
+What are Data Types?
+Data types classify information to tell the computer how to interpret 
+and use data. JavaScript has three primary data types that we'll use to build programs and websites.
+
+1. Strings
+- Text enclosed in quotation marks: "Hello", "my name"
+- Everything in quotes is treated as text, not code
+- Used for names, messages, and any text content
+
+2. Numbers
+- Written without quotation marks: 23, 3.14, 42
+- Can be integers or decimals
+- Used for calculations and mathematical operations
+
+3. Booleans
+- Only two possible values: true or false
+- Essential for conditional logic and decision-making
+
+Using the JavaScript Console
+Access: View > Developer > JavaScript Console
+
+Examples:
+- 2 + 3 (outputs 5)
+- alert(2 + 3) (shows pop-up with 5)
+
+The typeof Operator
+Use typeof() to identify data types:
+- typeof(23) returns "number"
+- typeof("my name") returns "string"
+- typeof(true) returns "boolean"
+
+Key Points
+- Quotation marks distinguish text from code
+- Understanding data types is fundamental to programming
+- The console provides an interactive testing environment
+- Next lesson: variables for storing and manipulating data
+
+Interview Questions & Practice
+
+Basic Questions:
+1. What are the three primary data types in JavaScript?
+2. How do you distinguish between code and text in JavaScript?
+3. What is the difference between 23 and "23"?
+4. What values can a Boolean data type have?
+5. How do you check the data type of a variable in JavaScript?
+
+Practical Questions:
+6. What would typeof("123") return?
+7. What would typeof(true) return?
+8. What would typeof(42.5) return?
+9. Which of these is a string: hello or "hello"?
+10. What happens when you write alert(5 + 3)?
+
+Code Analysis:
+11. Explain what happens: typeof(typeof(42))
+12. Is "true" the same as true? Why or why not?
+13. What's the difference between 0 and "0"?
+
+Sample Answers:
+1. String, Number, Boolean
+2. Quotation marks - anything in quotes is text, not code
+3. 23 is a number, "23" is a string
+4. true or false
+5. typeof() operator
+
+

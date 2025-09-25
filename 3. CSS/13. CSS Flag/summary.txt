@@ -1,0 +1,9 @@
+CSS Flag Project (Concise Summary)
+
+- Use only CSS (no HTML changes) to create the Laos flag: red background, blue center stripe, white circle.
+- Flag size: 900×600px. Blue stripe: 100% width, 300px height, centered. White circle: 200×200px, centered in blue.
+- Use .flag as the main container (position: relative). Use child/descendant selectors to target elements.
+- Use absolute positioning for blue stripe and circle.
+- Remove default margins, center and style text as needed.
+- Use browser tools to get exact colors and debug.
+- Key skills: CSS selectors, positioning, understanding default styles, and using inspection tools.

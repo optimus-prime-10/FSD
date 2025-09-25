@@ -1,0 +1,49 @@
+Order
+- child property
+- by default 0
+
+flex-wrap
+- parent property
+- default : nowrap ( continue pushing on same line )
+- wrap : move to next line
+- 
+
+
+# Flex Layout Summary
+
+## Core Concept
+Flexbox properties are divided into:
+- **Parent (Container)**: Properties applied to the flex container
+- **Child (Items)**: Properties applied to individual flex items
+
+Understanding this distinction is essential for proper implementation.
+
+## Key Properties
+
+### Parent (Container) Properties
+- **`flex-wrap`**: Controls wrapping (`nowrap`, `wrap`, `wrap-reverse`)
+- **`justify-content`**: Aligns items along main axis (`flex-start`, `center`, `space-between`, etc.)
+- **`align-items`**: Aligns items along cross axis (`flex-start`, `center`, `stretch`, etc.)
+- **`align-content`**: Aligns wrapped lines (only works with `flex-wrap: wrap`)
+
+### Child (Item) Properties
+- **`order`**: Controls item sequence (default: 0, accepts any integer)
+- **`align-self`**: Overrides container's `align-items` for individual items
+
+## Resources
+- **CSS Tricks Flexbox Guide**: Essential cheat sheet differentiating parent/child properties
+- **Interactive Tools**:
+  - Flex Layout Demo: `appbrewery.github.io/flex-layout`
+  - Flexbox Froggy Game: `appbrewery.github.io/flexboxfroggy`
+
+## Best Practices
+1. Identify if property applies to parent or child
+2. Use cheat sheets and interactive tools for learning
+3. Practice with games like Flexbox Froggy
+4. Don't memorize - know where to find resources
+
+**Reference**: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://appbrewery.github.io/flexboxfroggy/

@@ -1,0 +1,18 @@
+## Colour Vocab Website Project
+
+**Purpose:** Spanish color vocabulary learning with visual flashcards.
+
+**Key Tasks:**
+- Link external CSS file
+- Set images to 200x200px
+- Color Spanish words using ID selectors
+- Make titles (.color-title) lighter font weight
+- Rule: CSS-only styling, no HTML edits
+
+**Skills Practiced:** CSS selectors, color properties, external stylesheets
+
+**Interview Questions:**
+1. How did you use CSS selectors for styling?
+2. Why use ID selectors for color words?
+3. How to make all images the same size?
+4. Why avoid editing HTML in this project?

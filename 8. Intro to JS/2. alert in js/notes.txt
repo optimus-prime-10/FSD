@@ -1,0 +1,49 @@
+JavaScript Alerts - Adding Interactive Behavior
+
+## JavaScript Console Access
+Open Chrome Developer Tools: View > Developer > JavaScript Console
+- Direct code execution by pressing Enter
+- Use Shift + Enter for multi-line code
+
+## Basic Alert Syntax
+```javascript
+alert("Hello");
+```
+
+## Multi-line Alerts
+```javascript
+alert("Hello!");
+alert("World!");
+```
+
+## Chrome Snippets Feature (Better for Multi-line Code)
+1. Go to Sources tab > Snippets
+2. Create new snippet (e.g., index.js)
+3. Write code and click Run button
+
+## Alert Function Anatomy
+- `alert` - Browser-recognized keyword
+- `()` - Contains the message parameter
+- `""` - String quotation marks
+- `;` - Statement terminator
+
+## Key Syntax Rules
+- Use straight quotes (`"`) not stylized quotes (`"`)
+- Double quotes preferred over single quotes
+- No spaces between keywords and parentheses
+- Semicolons end statements
+
+## Error Handling
+Invalid commands throw `ReferenceError`
+- Use MDN Web Docs for valid JavaScript references
+
+## Best Practices
+- Follow JavaScript Style Guide for consistency
+- Use code editors to avoid syntax errors
+- Maintain uniform coding style across projects
+
+## Key Takeaways
+- JavaScript adds behavior (vs CSS styling)
+- Console for testing, Snippets for longer scripts
+- Proper syntax essential: keywords, parentheses, quotes, semicolons
+- Foundation for advanced JavaScript programming

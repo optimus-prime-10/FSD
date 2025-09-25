@@ -1,0 +1,68 @@
+JavaScript Variables
+
+What are Variables?
+Variables are containers that store data in computer memory. 
+Think of them as labeled boxes that hold information you want 
+to remember and use later.
+
+Creating Variables
+Use the `var` keyword to create a variable:
+
+var myName = "Somebody";
+
+Syntax: var variableName = value;
+
+Getting User Input
+Use `prompt()` to get input from users:
+
+var yourName = prompt("What is your name?");
+
+Displaying Values
+Use `alert()` to show variable values:
+
+alert(myName);
+
+Updating Variables
+Change values without using `var` again:
+
+myName = "Jack";
+
+Combining Variables
+Use the + operator to combine variables with text:
+
+alert("Hello " + yourName + ", welcome!");
+
+Practical Example
+Track changing data like game levels:
+
+var gameLevel = 1;
+gameLevel = 2;
+alert("Level: " + gameLevel);
+
+Interview Questions
+
+Basic Level:
+1. What is a variable in JavaScript?
+2. How do you declare a variable in JavaScript?
+3. What's the difference between declaring and updating a variable?
+4. How do you get user input in JavaScript?
+5. How do you display a variable's value to the user?
+
+Intermediate Level:
+6. What happens if you use a variable before declaring it?
+7. Can you change a variable's value after creating it?
+8. How do you combine variables with text?
+9. What's the purpose of variables in programming?
+10. Give an example of when you'd use variables in a real program.
+
+(Answers available in answers.txt)
+
+Key Takeaways
+1. Variables are containers that store data in computer memory
+2. Use "var" keyword to create new variables
+3. prompt() gets input from users
+4. alert() displays information to users
+5. Variables can be combined with text using the + operator
+6. You can update variable values without using "var" again
+7. Variables help avoid repeating data in your code
+8. They're essential for creating interactive programs

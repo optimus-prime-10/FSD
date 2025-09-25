@@ -1,0 +1,45 @@
+1. how to collect user data
+2. form element
+3. build a simple form
+4. add validations
+
+# TEACHING ROADMAP
+1. Show students a basic web page with no way to collect user input.
+2. Ask how websites collect information from users.
+3. Introduce the <form> element and common input types.
+4. Demonstrate building a simple form with input, label, and button.
+5. Discuss the difference between GET and POST methods.
+6. Guide students to create their own form (hands-on).
+7. Review accessibility: using labels and required fields.
+8. Quiz with common interview questions.
+9. Offer an extra challenge: add validation or style the form with CSS.
+
+# HTML Forms - Summary
+
+HTML forms are used to collect user input. The <form> element wraps input fields, labels, buttons, and other controls. Forms can send data to a server using GET or POST methods.
+
+## Common Elements
+- <input>: Text, email, password, number, checkbox, radio, etc.
+- <label>: Describes an input field
+- <textarea>: Multi-line text input
+- <select>: Dropdown menu
+- <button>: Clickable button
+
+## Example
+<form>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username">
+</form>
+
+## Interview Questions
+
+1. What is the purpose of the <form> element?
+   - To collect and submit user input to a server.
+2. How do you associate a <label> with an <input>?
+   - Use the 'for' attribute on <label> matching the 'id' of the <input>.
+3. What is the difference between GET and POST methods?
+   - GET appends data to the URL (visible, limited size), POST sends data in the request body (not visible, larger size, more secure for sensitive data).
+4. How do you make a field required?
+   - Add the 'required' attribute to the input element.
+5. How do you create a dropdown in a form?
+   - Use the <select> element with <option> children.

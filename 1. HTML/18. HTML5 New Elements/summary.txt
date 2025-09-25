@@ -1,0 +1,39 @@
+# TEACHING ROADMAP
+1. Show students a web page using only older HTML elements (no HTML5 tags).
+2. Ask how to make the page more meaningful and modern.
+3. Introduce new HTML5 elements: <figure>, <mark>, <time>, <progress>, <output>, <meter>, <section>, <article>, <aside>, <nav>.
+4. Demonstrate adding these elements to a sample page.
+5. Discuss the benefits for semantics, accessibility, and structure.
+6. Guide students to update a sample file using new HTML5 elements (hands-on).
+7. Review key points and quiz with common interview questions.
+8. Offer an extra challenge: use <progress> or <meter> in a real-world scenario.
+
+# HTML5 New Elements - Summary
+
+HTML5 introduced new elements to improve semantics and functionality.
+
+## Common New Elements
+- <figure>, <figcaption>
+- <mark>, <time>, <progress>, <output>, <meter>
+- <section>, <article>, <aside>, <nav>
+
+## Example
+<figure>
+  <img src="img.jpg" alt="">
+  <figcaption>Caption</figcaption>
+</figure>
+
+## Interview Questions
+
+1. Name three new elements introduced in HTML5.
+   - <figure>, <mark>, <time>
+2. What is the purpose of the <progress> element?
+   - To display progress of a task.
+3. How does <figure> differ from <img>?
+   - <figure> is a semantic container for images and captions.
+4. What does the <mark> element do?
+   - Highlights text.
+5. How do you represent a date/time in HTML5?
+   - Use the <time> element with a datetime attribute.
+
+

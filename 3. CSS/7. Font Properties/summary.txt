@@ -1,0 +1,109 @@
+# Font Properties - CSS
+
+## Key Properties
+- **font-size**: Controls text size
+- **font-weight**: Controls text thickness  
+- **font-family**: Specifies typeface
+- **text-align**: Controls horizontal alignment
+
+## Font Size Units
+
+### Absolute Units
+- **px (pixels)**: Fixed size, precise control
+  - **When to use**: Borders, shadows, small details
+  - **Pros**: Predictable, precise
+  - **Cons**: Not responsive, accessibility issues
+
+- **pt (points)**: Print unit (1pt = 1/72 inch)
+  - **When to use**: Print stylesheets only
+  - **Avoid**: For screen displays
+
+### Relative Units (Recommended)
+- **rem**: Relative to root element (html)
+  - **When to use**: Font sizes, spacing, main layout
+  - **Best for**: Consistent scaling across site
+  - **Example**: 1rem = 16px (if root is 16px)
+
+- **em**: Relative to parent element
+  - **When to use**: Padding/margins relative to text size
+  - **Caution**: Can compound (nested elements multiply)
+  - **Good for**: Buttons, components that scale with text
+
+- **%**: Percentage of parent element
+  - **When to use**: Responsive layouts, relative sizing
+  - **Common**: line-height: 150%
+
+- **vw/vh**: Viewport width/height
+  - **When to use**: Hero text, responsive typography
+  - **Example**: Large headings that scale with screen
+
+```css
+/* Recommended approach */
+html { font-size: 16px; }  /* Base size */
+h1 { font-size: 2.5rem; }  /* 40px */
+p { font-size: 1rem; }     /* 16px */
+small { font-size: 0.875rem; } /* 14px */
+
+/* Em for component spacing */
+.button {
+  padding: 0.5em 1em;  /* Scales with button text */
+}
+
+/* Viewport units for hero text */
+.hero-title {
+  font-size: 8vw;  /* Responsive to screen width */
+}
+```
+
+### Unit Selection Guide
+- **Use rem**: For most font sizes and spacing
+- **Use em**: For component padding/margins
+- **Use px**: For borders, shadows, fine details
+- **Use vw/vh**: For responsive typography
+- **Avoid pt**: Except for print styles
+
+## Font Weight
+- **Keywords**: normal, bold
+- **Numbers**: 100-900 (400=normal, 700=bold)
+- **Relative**: lighter, bolder
+
+```css
+font-weight: bold;
+font-weight: 700;
+```
+
+## Font Family
+Always include fallbacks:
+```css
+font-family: Helvetica, Arial, sans-serif;
+font-family: "Times New Roman", serif;
+```
+
+**Font Types:**
+- **Sans-serif**: Clean, no decorative strokes
+- **Serif**: Small lines at letter ends
+
+## Text Alignment
+```css
+text-align: left;    /* Default */
+text-align: center;
+text-align: right;
+text-align: start;   /* Adapts to text direction */
+text-align: end;
+```
+
+## Custom Fonts (Google Fonts)
+1. Link in HTML `<head>`:
+```html
+<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+```
+2. Apply in CSS:
+```css
+font-family: 'Roboto', sans-serif;
+```
+
+## Best Practices
+- Use `rem` for consistent scaling
+- Always include fallback fonts
+- Quote multi-word font names
+- Consider accessibility

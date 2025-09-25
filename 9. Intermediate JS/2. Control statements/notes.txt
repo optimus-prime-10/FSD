@@ -1,0 +1,27 @@
+CONTROL STATEMENTS: IF-ELSE
+
+Basic Structure:
+if (condition) {
+    // code if true
+} else {
+    // code if false
+}
+
+Example:
+if (loveScore > 70) {
+    alert("Great love score!");
+} else {
+    alert("Your score is " + loveScore);
+}
+
+Comparison Operators:
+=== (equal), > < >= <= (comparison)
+
+Patterns:
+- if/else (single condition)
+- if/else if/else (multiple conditions)
+- if (score > 50 && score < 80) (range checking)
+
+Key Points:
+- Use === for equality
+- Conditions in (), code in {}

@@ -1,0 +1,37 @@
+# TEACHING ROADMAP
+1. Show students a web page with no favicon or external styles/scripts.
+2. Ask how to add a custom icon and external resources to a website.
+3. Introduce the <link> and <script> tags for favicons, CSS, and JS.
+4. Demonstrate adding a favicon and linking CSS/JS files in the <head>.
+5. Discuss the importance of external resources for maintainability and performance.
+6. Guide students to add a favicon and external stylesheet to a sample file (hands-on).
+7. Review key points and quiz with common interview questions.
+8. Offer an extra challenge: add multiple stylesheets or use 'defer' with scripts.
+
+# Favicon and External Resources - Summary
+
+Favicons are small icons shown in browser tabs. External resources like CSS and JS are linked in the <head>.
+
+## Common Elements
+- <link rel="icon" href="favicon.ico">
+- <link rel="stylesheet" href="styles.css">
+- <script src="script.js"></script>
+
+## Example
+<head>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+## Interview Questions
+
+1. How do you add a favicon to a website?
+   - Use <link rel="icon" href="favicon.ico"> in the <head>.
+2. How do you link an external CSS file?
+   - Use <link rel="stylesheet" href="styles.css">.
+3. Where should you place external JS scripts?
+   - Usually before </body> for performance, or in <head> with 'defer'.
+4. Can you link multiple stylesheets?
+   - Yes, use multiple <link> tags.
+5. What happens if a linked resource is missing?
+   - The browser skips it; missing CSS/JS may break site appearance/functionality.

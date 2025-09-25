@@ -1,0 +1,76 @@
+# Why Do We Need CSS? - Summary
+
+## What is CSS?
+- **CSS** = Cascading Style Sheets
+- Stylesheet Language that styles HTML elements
+- Styles "cascade" from general to specific
+
+## The Problem
+- Early HTML had no styling capabilities
+- HTML 3.2 introduced styling tags but caused:
+  - Mixed content with presentation
+  - Bloated, hard-to-maintain code
+  - Difficult to distinguish structure from styling
+
+## The Solution (1996)
+- CSS separated styling from content
+- Led by Håkon Wium Lie at W3C
+- Same HTML can have multiple visual presentations
+
+## Why CSS is Essential
+1. **Separation of Concerns**: HTML for content, CSS for styling
+2. **Maintainability**: Easier to update styles
+3. **Flexibility**: Multiple designs for same content
+4. **Clean Code**: Readable and organized structure
+
+## Key Benefits
+- Transforms website appearance without changing HTML
+- Enables responsive and modern web design
+- Industry standard since 1996
+
+## Demo
+- appbrewery.github.io/just-add-css shows CSS impact
+
+
+
+
+Low level design interview
+SOLID ( object oriented programming )
+- single responseblity principle
+- user 
+  - user.html
+  - user.css
+
+- login
+  - login.html
+  - login.css
+
+Open/Closed Principle
+- open for enhancements
+- cloed for modifications
+
+
+  class Student
+
+  // this function is tested, and running production for very long time
+  // test it all over again
+  func markStudentPresent(){
+
+  }
+
+  // 
+  func markStudentAbsent(){}
+
+
+Liskov Substitution Principle
+Class A ( parent ) Vehicle
+  absract HowManyWheels(){}
+  abstrct EngineType(){}
+
+
+Class B ( Child ) Cycle
+  EngineType(){
+    throw error
+  }
+
+

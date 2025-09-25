@@ -1,0 +1,38 @@
+FUNCTIONS: OUTPUTS & RETURN VALUES
+
+OVERVIEW
+Functions can return values using the 'return' keyword.
+Returned values can be stored in variables or used in calculations.
+
+THE RETURN KEYWORD
+- Use 'return' to send data back from a function
+- The value after 'return' becomes the function's output
+- Without 'return', function executes but returns undefined
+
+EXAMPLE:
+function getMilk(money) {
+    return money % 1.5;  // Returns change
+}
+
+let change = getMilk(4);  // change = 1
+
+MODULAR FUNCTIONS
+Break complex tasks into smaller, reusable functions:
+
+function calcBottles(money, cost) {
+    return money / cost;
+}
+
+function calcChange(money, cost) {
+    return money % cost;
+}
+
+USING OUTPUTS
+console.log("Change: " + getMilk(5, 1.5));
+getMilk(10, 3);  // Works with different values
+
+KEY POINTS:
+1. 'return' sends values back from functions
+2. Returned values can be stored and reused
+3. Modular functions improve code organization
+4. Functions become more flexible with parameters

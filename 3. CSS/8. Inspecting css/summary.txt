@@ -1,0 +1,29 @@
+# CSS Inspection Summary
+
+## Accessing Developer Tools
+- Right-click → "Inspect"
+- Mac: Cmd + Option + I, Windows: Ctrl + Shift + I
+
+## Key Features
+- **Elements Tab**: Shows HTML structure and applied CSS
+- **Live Editing**: Modify styles in real-time (temporary changes)
+- **Computed Tab**: Shows final calculated styles after overrides
+- **CSS Overview**: Analyze design palette and consistency
+
+## Workflow
+1. Open Developer Tools
+2. Select element to inspect
+3. View/edit styles in Elements tab
+4. Check Computed tab for final values
+5. Apply successful changes to source files
+
+## Common Uses
+- Debug layout issues
+- Test color schemes and typography
+- Understand CSS inheritance and specificity
+- Analyze existing websites
+
+## Key Points
+- Changes are temporary and safe for experimentation
+- Crossed-out properties show overridden styles
+- Perfect for testing before implementing changes

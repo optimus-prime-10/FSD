@@ -1,0 +1,42 @@
+# TEACHING ROADMAP
+1. Show students a web page with no audio or video content.
+2. Ask how to add sound or video to a website.
+3. Introduce the <audio> and <video> elements and their attributes.
+4. Demonstrate embedding audio and video files in HTML.
+5. Discuss the use of <source> and <track> for multiple formats and captions.
+6. Guide students to add media elements to a sample page (hands-on).
+7. Review accessibility: captions, fallback text, and controls.
+8. Quiz with common interview questions.
+9. Offer an extra challenge: add subtitles or multiple sources for compatibility.
+
+# Media Elements - Summary
+
+HTML5 introduced native support for audio and video playback.
+
+## Common Elements
+- <audio>: Embeds sound content
+- <video>: Embeds video content
+- <source>: Specifies media file
+- <track>: Adds subtitles/captions
+
+## Example
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+
+## Interview Questions
+
+1. How do you embed audio in HTML?
+   - Use the <audio> element with <source>.
+2. How do you add subtitles to a video?
+   - Use the <track> element inside <video>.
+3. What happens if the browser doesn't support audio/video tags?
+   - Fallback text is displayed.
+4. Can you control playback with HTML only?
+   - Yes, using the 'controls' attribute.
+5. How do you specify multiple formats for media?
+   - Add multiple <source> elements with different types.

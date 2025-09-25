@@ -1,0 +1,106 @@
+CSS Grid: Introduction to Two-Dimensional Layouts
+
+What is CSS Grid?
+CSS Grid is a powerful CSS tool designed specifically for creating two-dimensional layouts. While Flexbox excels at one-dimensional alignment (along a single axis), Grid is purpose-built for complex layouts that require both rows and columns working together.
+
+Why Do We Need CSS Grid?
+After learning Flexbox, you might think you could create any layout using horizontal row-based Flexbox systems with multiple divs and defined widths. However, consider more complex layouts like weather forecast websites or intricate dashboard designs. Creating such layouts with Flexbox alone would be extremely challenging and often impractical.
+
+Real-World Example: Swiss Weather Website
+The Swiss weather forecast website for Bern demonstrates Grid's power. The layout is divided into different sections, and imagining how difficult it would be to create this using only Flexbox or floats highlights Grid's usefulness. Moreover, the website is beautifully responsive - it shrinks while preserving the grid format, maintaining proportionality as intended by the designer.
+
+Flexbox vs Grid: Understanding the Differences
+
+Flexbox:
+- Designed for one-dimensional layouts (single axis)
+- Great for horizontal or vertical alignment
+- Perfect for navbars, button groups, or content alignment
+- Items flow along one direction (row or column)
+
+Grid:
+- Designed for two-dimensional layouts (both X and Y axes)
+- Excellent for complex page layouts with multiple sections
+- Perfect for dashboards, photo galleries, or chessboard layouts
+- Items are placed in both rows and columns simultaneously
+
+When to Use Each:
+- Use Flexbox when you need to align items along a single line (like a navbar with items spread across)
+- Use Grid when you need a layout with both rows and columns (like a page with sidebar, main content, and footer)
+
+Combining Flexbox and Grid
+You don't have to choose between Flexbox or Grid - they complement each other! Most web developers use a combination of these tools alongside floats, Bootstrap, or other frameworks to create designs.
+
+Common Patterns:
+- Grid container with Flexbox items inside
+- Flexbox container with Grid items inside
+- Grid for overall page layout, Flexbox for component alignment
+
+As the instructor's grandad says: "The only thing that doesn't weigh you down in life is skills. The more skills you have, the better you can adapt and the easier things become."
+
+Demo: Grid vs Flexbox Comparison
+Visit appbrewery.github.io/grid-vs-flexbox/ to see Grid and Flexbox side by side. Key differences:
+- Grids naturally align items in columns and rows with matching gaps
+- Flexbox adapts and squishes content to fit the screen
+- Grid creates neat, boxy layouts
+- Flexbox prioritizes content flow and spacing
+
+Creating Your First Grid
+
+Basic Grid Setup:
+1. HTML Structure: A container div with multiple child elements
+2. CSS Grid Declaration: Set container's display to 'grid'
+3. Define Columns: Use grid-template-columns
+4. Define Rows: Use grid-template-rows
+5. Add Gaps: Use gap property for spacing
+
+Example:
+```css
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Second column twice as wide */
+    grid-template-rows: 1fr 1fr;    /* Equal height rows */
+    gap: 10px;                      /* 10px gap between items */
+}
+```
+
+Practical Exercise: Chessboard Layout
+
+Challenge: Create a chessboard using CSS Grid
+- 8x8 grid (64 squares total)
+- Each square: 100px x 100px
+- Alternating black and white squares
+- Perfect alignment without gaps
+
+Solution Steps:
+1. Set white squares: height: 100px, width: 100px, background-color
+2. Set black squares: height: 100px, width: 100px, background-color
+3. Target container: display: grid
+4. Set grid-template-columns: repeat(8, 1fr) for 8 equal columns
+5. Set grid-template-rows: repeat(8, 1fr) for 8 equal rows
+6. Optional: Set container width to 800px to avoid gaps
+
+Key CSS Properties Used:
+- display: grid - Makes the container a grid
+- grid-template-columns - Defines column sizes
+- grid-template-rows - Defines row sizes
+- gap - Creates spacing between grid items
+
+Why Grid is Perfect for Chessboard:
+- Creates perfect alignment without complex calculations
+- Automatically handles both rows and columns
+- Much easier than using floats or Flexbox
+- Maintains consistent spacing and sizing
+
+Key Takeaways:
+1. CSS Grid is designed for two-dimensional layouts, making complex designs easier than with Flexbox alone
+2. Flexbox is ideal for one-dimensional alignment, while Grid excels at layouts involving both rows and columns
+3. Combining Grid and Flexbox is common and powerful in web design
+4. Grid properties like display: grid, grid-template-columns, and grid-template-rows are fundamental
+5. The gap property provides clean spacing without margin/padding complications
+6. Grid is particularly well-suited for layouts that need perfect alignment and consistent spacing
+
+Next Steps:
+This foundation prepares you for more advanced Grid concepts like grid areas, grid lines, and responsive grid layouts. Understanding when and how to use Grid vs Flexbox will make you a more versatile web developer.
+
+
+https://aare.guru/bern/aare-wasser

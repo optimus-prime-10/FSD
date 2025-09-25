@@ -1,0 +1,36 @@
+# Adding CSS - Summary
+
+## Three Methods of Adding CSS
+
+### 1. Inline CSS
+- **Syntax**: `<h1 style="color: blue;">Text</h1>`
+- **Use**: Quick styling of individual elements
+- **Pros**: Direct and immediate
+- **Cons**: Not scalable, mixes content with presentation
+
+### 2. Internal CSS
+- **Syntax**: 
+```html
+<style>
+h1 { color: red; }
+</style>
+```
+- **Use**: Single-page styling
+- **Pros**: Organized within document
+- **Cons**: Not reusable across pages
+
+### 3. External CSS
+- **Syntax**: `<link rel="stylesheet" href="styles.css">`
+- **Use**: Multi-page styling
+- **Pros**: Scalable, reusable, separates concerns
+- **Cons**: Additional file management
+
+## Best Practices
+- **Inline**: Use sparingly for testing or single elements
+- **Internal**: Good for single-page projects
+- **External**: Recommended for professional development
+
+## Key Interview Questions
+1. What are the three ways to add CSS to HTML?
+2. When would you use external CSS vs inline CSS?
+3. How do you link an external CSS file?

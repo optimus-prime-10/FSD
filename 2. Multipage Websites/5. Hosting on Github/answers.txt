@@ -1,0 +1,7 @@
+1. Web hosting makes your website accessible on the Internet for anyone to view.
+2. Steps: create a GitHub repository, upload files, enable GitHub Pages, and access the live site.
+3. The repository must be public so GitHub Pages can serve the files to anyone.
+4. index.html is the default file loaded for a directory; it must be present for the site to work.
+5. Add a custom 404 page by creating 404.html; it helps users navigate if they visit a broken link.
+6. GitHub Pages is free, easy to use, and provides a professional web address for your site.
+7. After deploying, check that all links work, images display, and the site loads as expected.

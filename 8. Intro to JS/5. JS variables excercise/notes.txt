@@ -1,0 +1,30 @@
+JavaScript Variables Exercise: Swapping Values Challenge
+
+Objective
+Swap the values of two variables: variable 'a' (initially 3) and variable 'b' (initially 8). 
+After swapping, 'a' should equal 8 and 'b' should equal 3.
+
+Task
+Write code on lines 7, 8, and 9 to exchange the variable values.
+
+Rules and Constraints
+- Cannot modify existing code outside designated lines
+- Cannot type numbers directly (no 'a = 8' or 'b = 3')
+- Cannot redeclare variables or change their types
+- Must use variable manipulation only
+
+The Bucket Analogy
+Think of variables as buckets: bucket 'a' has sand, bucket 'b' has water. 
+You need to exchange their contents so 'a' has water and 'b' has sand.
+
+Solution Process
+1. Use the interactive code playground to test your solution
+2. Run code to verify the swap worked correctly
+3. Click "Check Solution" to verify correctness
+4. Review the solution walkthrough after completion
+
+Learning Objectives
+- Understanding variable value swapping
+- Working within programming constraints
+- Developing logical problem-solving skills
+- Learning to avoid hard-coded values

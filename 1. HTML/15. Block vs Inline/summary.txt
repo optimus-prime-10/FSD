@@ -1,0 +1,34 @@
+# TEACHING ROADMAP
+1. Show students a web page with mixed content and ask which elements start new lines.
+2. Introduce the concepts of block and inline elements.
+3. Demonstrate examples of each type in HTML.
+4. Discuss how block and inline elements affect layout and structure.
+5. Guide students to identify and classify elements in a sample file (hands-on).
+6. Review key points and quiz with common interview questions.
+7. Offer an extra challenge: use CSS to change display types and observe effects.
+
+# Block vs Inline Elements - Summary
+
+Block elements start on a new line and take up the full width available. Inline elements do not start on a new line and only take up as much width as necessary.
+
+## Block Elements
+- <div>, <p>, <h1>-<h6>, <ul>, <ol>, <li>, <table>, <form>
+
+## Inline Elements
+- <span>, <a>, <img>, <strong>, <em>, <input>
+
+## Example
+<div>Block</div><span>Inline</span>
+
+## Interview Questions
+
+1. What is the difference between block and inline elements?
+   - Block elements start on a new line and expand to fill the width; inline elements flow within a line.
+2. Give two examples of block and inline elements.
+   - Block: <div>, <p>; Inline: <span>, <a>
+3. Can you nest block elements inside inline elements?
+   - No, block elements should not be nested inside inline elements.
+4. How can you change an element's display type?
+   - Use the CSS 'display' property (e.g., display: block; display: inline;).
+5. What is an inline-block element?
+   - It behaves like an inline element but allows width and height to be set.

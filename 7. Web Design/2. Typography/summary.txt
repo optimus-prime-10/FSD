@@ -1,0 +1,44 @@
+# Typography Guide
+
+## Why Typography Matters
+Font choice significantly impacts mood and perception. The right typography makes designs look professional and effectively communicates your message.
+
+## Font Families
+
+### Serif Fonts
+- **Features:** Have small "feet" (serifs) at letter ends
+- **Mood:** Serious, authoritative, traditional, stable
+- **Use cases:** Legal documents, magazines, formal content
+- **Sub-types:** Old Style (vintage), Transitional, Modern (e.g., Didot), Slab-Serif
+
+### Sans-Serif Fonts  
+- **Features:** Clean lines without serifs
+- **Mood:** Friendly, modern, approachable, simple
+- **Use cases:** Websites, body text, startup brands
+- **Best for readability:** Humanist sub-family (Gill Sans, Tahoma, Verdana)
+
+## Font Legibility Research
+MIT study showed Humanist fonts reduce reading time by 30-40% compared to Grotesque sans-serif. Better readability = better user engagement.
+
+### Legibility Checklist:
+- Open letter shapes
+- Ample letter spacing  
+- Clear distinction between similar characters (g vs 9, O vs 0)
+- Varying letter proportions
+
+## Best Practices
+
+### The Two-Font Rule
+Limit designs to **maximum 2 fonts** for cleaner, professional appearance.
+
+### Effective Font Pairing:
+1. Choose fonts with similar moods and time periods
+2. Create contrast: serif headers + sans-serif body (or vice versa)
+3. Vary weights: bold headers + regular body text
+
+## Key Takeaways
+1. Typography influences design mood and professionalism
+2. Serif = traditional/authoritative, Sans-serif = modern/friendly
+3. Prioritize readability, especially for body text
+4. Stick to 2 fonts maximum per design
+5. Combine fonts with similar moods but contrasting characteristics

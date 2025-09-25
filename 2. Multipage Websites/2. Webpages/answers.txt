@@ -1,0 +1,7 @@
+1. A multi-page website consists of multiple HTML files, each representing a different page. A single-page website has all content on one page, often using JavaScript to show/hide sections.
+2. Organize files with a main index.html, a public/ folder for extra pages, and an assets/ folder for images and resources.
+3. Use anchor tags (<a href="path/to/page.html">) to link between pages. Navigation bars help users move between sections.
+4. Relative paths ensure links work even if the project is moved to a different location or server.
+5. Use an <a> tag wrapping an <img> tag, e.g., <a href="about.html"><img src="cat.png" alt="cat"></a>.
+6. Place the same navigation bar on every page, highlight the current page, and use clear, descriptive link text.
+7. Test all links after moving the project, use consistent folder and file names, and prefer relative paths for portability.

@@ -1,0 +1,68 @@
+CSS SELECTORS - QUICK REFERENCE
+================================
+
+CSS selectors target HTML elements to apply styles.
+
+TYPES OF SELECTORS
+==================
+
+1. ELEMENT SELECTOR
+- Syntax: h1, p, div
+- Targets: All elements of that type
+- Example: h1 { color: blue; }
+
+2. CLASS SELECTOR  
+- Syntax: .class-name
+- Targets: Elements with that class
+- Example: .highlight { background: yellow; }
+- Note: Multiple elements can share classes
+
+3. ID SELECTOR
+- Syntax: #id-name  
+- Targets: Element with that unique ID
+- Example: #header { color: green; }
+- Note: IDs must be unique per page
+
+4. ATTRIBUTE SELECTOR
+- Syntax: [attribute] or [attribute="value"]
+- Example: input[type="text"] { border: 1px solid gray; }
+
+5. UNIVERSAL SELECTOR
+- Syntax: *
+- Targets: All elements
+- Example: * { margin: 0; }
+
+SPECIFICITY ORDER
+=================
+ID (#) > Class (.) > Element (tag) > Universal (*)
+
+More specific selectors override less specific ones.
+
+BEST PRACTICES
+==============
+- Use classes for reusable styles
+- Use IDs for unique elements only
+- Keep selectors simple
+- Avoid overusing universal selector
+
+
+<p id="pTag" class="pTagClass"></p>
+
+
+#pTag{
+    color: green
+}
+
+
+#pTagClass {
+    color: red
+}
+
+h1 {
+    color: blue
+}
+
+
+* {
+    color: aqua
+}

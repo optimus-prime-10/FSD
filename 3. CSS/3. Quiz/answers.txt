@@ -1,0 +1,11 @@
+Question 1:
+Correct Answer: A) <element style="CSS code">
+Explanation: Inline CSS uses the style attribute directly on HTML elements to apply styles.
+
+Question 2:
+Correct Answer: C) <head><style>CSS code</style></head>
+Explanation: Internal CSS is placed within <style> tags inside the <head> section of the HTML document.
+
+Question 3:
+Correct Answer: B) <link href="style.css" rel="stylesheet"/>
+Explanation: External CSS is linked using the <link> element with href and rel attributes to reference an external .css file.

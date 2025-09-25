@@ -1,0 +1,43 @@
+Web Design Agency Website Project Summary
+
+Overview:
+- Build a beautiful, simple, and responsive website for a Creative Design Agency (dev.com).
+- The site features two blocks of text describing the agency's work and a footer with the motto: "Create, Develop Design."
+- Focus on clean design and responsiveness: On large screens, content is side-by-side; on small screens (e.g., iPhone), blocks stack vertically and center for better usability.
+
+Key Concepts & Guidelines:
+- Practice CSS layout: display, float, block, inline-block, and responsiveness.
+- Start with the provided index.html, preview in browser, and compare with solution.html.
+- Solution example: image with text floating beside it, two sections, responsive stacking at ~600px width.
+- You may design your own layout or replicate the solution. Ensure your design is visually appealing and responsive.
+- After finishing, compare your code with the solution to learn different layout techniques.
+
+Solution Highlights & Examples:
+- The solution uses a <span class="creative"> to style part of the text differently (example of inline element styling).
+- Media query at 680px and below: content blocks stack vertically, width set to 100%, text justified for clean lines.
+- CSS floats (float-left, float-right) align cards left and right for flexible layouts.
+- Uses object-fit to control image resizing within containers (see MDN Docs for details).
+
+Tips:
+- Research unfamiliar CSS properties (like object-fit) for deeper understanding.
+- Try your own design before checking the solution for maximum learning.
+- Share your unique designs in the Q&A section if desired.
+
+Key Takeaways:
+- Created a clean, responsive agency website layout.
+- Used CSS display, float, and media queries for responsiveness.
+- Styled inline elements with classes for emphasis.
+- Applied media queries to stack content on small screens.
+
+## Teaching Method
+- Use a project-based approach to reinforce CSS layout and design concepts.
+- Assign students to build and style a website from scratch.
+- Encourage peer review and code comparison for learning different techniques.
+- Discuss the importance of visual hierarchy and responsive design.
+
+## Interview Questions
+1. What CSS techniques did you use to achieve the project layout?
+2. How did you ensure your design is responsive?
+3. What challenges did you face and how did you solve them?
+4. How do you organize your CSS for large projects?
+5. What tools did you use to debug and test your CSS?

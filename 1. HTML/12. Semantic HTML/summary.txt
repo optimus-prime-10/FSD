@@ -1,0 +1,153 @@
+# TEACHING ROADMAP
+1. Show students a web page using only <div> and <span> for layout.
+2. Ask how the browser or screen reader understands the structure.
+3. Introduce semantic elements: <header>, <main>, <section>, <article>, <nav>, etc.
+4. Demonstrate replacing generic tags with semantic ones.
+5. Discuss the benefits for accessibility, SEO, and maintainability.
+6. Guide students to refactor a sample page using semantic HTML (hands-on).
+7. Review key points and quiz with common interview questions.
+8. Offer an extra challenge: create a blog layout using only semantic tags.
+
+# Semantic HTML - Summary
+
+
+
+1. <head> tag
+Purpose: Contains metadata (information about the webpage) and resources needed before the content loads.
+Examples of content inside:
+<title> (page title in browser tab)
+<meta> tags (description, charset, viewport)
+CSS links, JavaScript links (external or inline)
+User sees it? ❌ No, this is invisible on the webpage itself.
+
+2. <title> tag
+Purpose: Sets the title of the webpage (shown in browser tab and search engine results).
+Where: Inside <head>.
+Example:
+html
+Copy
+Edit
+<title>My Cool Blog</title>
+User sees it? ✅ In the tab title, not on the page.
+
+3. Header tag (<header>)
+Purpose: Represents the top section of a page or a section — usually contains the logo, site name, main navigation, etc.
+
+Not to be confused with: <head> (which is for metadata, not visible content).
+
+Example:
+
+html
+Copy
+Edit
+<header>
+  <h1>My Blog</h1>
+  <nav>...</nav>
+</header>
+User sees it? ✅ Yes, at the top of the page or section.
+
+4. <body> tag
+Purpose: Contains all the content you actually see on the webpage — text, images, videos, sections, etc.
+
+Example:
+
+html
+Copy
+Edit
+<body>
+  <h1>Hello, World!</h1>
+  <p>This is my webpage.</p>
+</body>
+User sees it? ✅ Everything inside it.
+
+5. <nav> tag
+Purpose: Contains navigation links — menus, table of contents, internal page anchors, etc.
+
+Example:
+
+html
+Copy
+Edit
+<nav>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+</nav>
+User sees it? ✅ Usually in menus or sidebars.
+
+6. <main> tag
+Purpose: Holds the main content of the page (the unique content for that page, not repeated across pages like headers/footers).
+
+Rules: Should only be one <main> per page.
+
+Example:
+
+html
+Copy
+Edit
+<main>
+  <h1>Article Title</h1>
+  <p>Content of the article...</p>
+</main>
+User sees it? ✅ Yes.
+
+7. <article> tag
+Purpose: Represents self-contained, independent content — like a blog post, news story, or forum entry.
+
+Example:
+
+html
+Copy
+Edit
+<article>
+  <h2>How to Cook Pasta</h2>
+  <p>Step 1: Boil water...</p>
+</article>
+User sees it? ✅ Yes.
+
+8. <aside> tag
+Purpose: Holds related or tangential content — like sidebars, ads, related links, author info.
+
+Example:
+
+html
+Copy
+Edit
+<aside>
+  <h3>About the Author</h3>
+  <p>Chirag Mittal, backend engineer...</p>
+</aside>
+User sees it? ✅ Usually to the side of the main content.
+
+
+
+
+Semantic HTML uses tags that describe the meaning of the content, making web pages more accessible and easier to maintain.
+
+## Common Semantic Elements
+- <header>, <footer>
+- <main>, <section>, <article>, <aside>
+- <nav>, <figure>, <figcaption>
+
+## Example
+<header>
+  <h1>My Blog</h1>
+</header>
+<main>
+  <article>
+    <h2>Post Title</h2>
+    <p>Post content...</p>
+  </article>
+</main>
+
+## Interview Questions
+
+1. What is semantic HTML?
+   - HTML that uses tags to convey the meaning and structure of content.
+2. Why is semantic HTML important?
+   - Improves accessibility, SEO, and code readability.
+3. Name three semantic HTML elements and their use.
+   - <header>: Page or section header; <nav>: Navigation links; <article>: Independent content.
+4. What is the difference between <section> and <div>?
+   - <section> is semantic (for related content), <div> is generic (no meaning).
+5. How does semantic HTML help screen readers?
+   - Screen readers use semantic tags to better interpret and navigate content.

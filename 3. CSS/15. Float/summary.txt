@@ -1,0 +1,20 @@
+CSS Float Summary
+
+- The `float` property positions elements (often images) to the left or right, allowing text to wrap around them.
+- Use the `clear` property (`clear: left`, `clear: right`, or `clear: both`) to prevent elements from wrapping around floated items.
+- Floated elements are removed from the normal document flow, which can affect the layout of following elements.
+- Float was historically used for layouts, but modern CSS recommends Flexbox and Grid for this purpose.
+- Today, float is mainly used for wrapping text around images.
+
+Teaching Method
+- Demonstrate float and text wrapping with images and text.
+- Assign exercises to float images left and right, and to clear floats.
+- Discuss the historical vs. modern uses of float.
+- Compare float with Flexbox and Grid.
+
+Interview Questions
+1. What is the float property used for in CSS?
+2. How does the clear property work with floated elements?
+3. Why is float less commonly used for layouts today?
+4. What issues can floating elements cause?
+5. How do you clear floats in CSS?

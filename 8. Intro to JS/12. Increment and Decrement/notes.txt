@@ -1,0 +1,21 @@
+# Increment and Decrement Operators
+
+## Basic Operators
+- `x++` - adds 1 to x (same as `x = x + 1`)
+- `x--` - subtracts 1 from x (same as `x = x - 1`)
+
+## Compound Assignment Operators
+- `x += 2` - adds 2 to x (same as `x = x + 2`)
+- `x -= 1` - subtracts 1 from x
+- `x *= 2` - multiplies x by 2
+- `x /= 3` - divides x by 3
+
+## Example
+```javascript
+let x = 5;
+x++;        // x is now 6
+x += 3;     // x is now 9
+x--;        // x is now 8
+```
+
+**Fun fact:** C++ language name = C + 1 (increment on C)

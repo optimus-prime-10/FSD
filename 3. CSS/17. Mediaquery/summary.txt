@@ -1,0 +1,44 @@
+Media queries are a core technique for responsive web design, allowing you to apply different CSS styles based on device characteristics, most commonly screen width. By using the @media rule with breakpoints (like max-width or min-width), you can change layouts, font sizes, or colors for various devices such as mobiles, tablets, laptops, and desktops. 
+
+Example:
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.2em;
+  }
+}
+This changes the h1 font size for screens 600px wide or less (e.g., mobile phones).
+
+You can combine min-width and max-width to target specific ranges:
+@media (min-width: 600px) and (max-width: 900px) {
+  div {
+    width: 300px;
+  }
+}
+This applies styles only for screens between 600px and 900px wide.
+
+Device breakpoint examples:
+- Mobile devices: 319px to 480px
+- iPads and tablets: 481px to 1200px
+- Laptops: 1201px to 1600px
+- Desktops: 1601px and above
+
+A typical exercise is to change the background color for different device widths using media queries:
+@media (max-width: 480px) { body { background: salmon; } }
+@media (min-width: 481px) and (max-width: 1200px) { body { background: powderblue; } }
+@media (min-width: 1201px) and (max-width: 1600px) { body { background: limegreen; } }
+@media (min-width: 1601px) { body { background: seagreen; } }
+
+Testing can be done with browser developer tools. Key points: max-width targets up to a width, min-width from a width upwards, and combining both targets a range. Media queries are essential for creating flexible, user-friendly websites across all devices.
+
+## Teaching Method
+- Use live browser resizing to demonstrate media query effects.
+- Assign tasks to write media queries for different breakpoints.
+- Encourage experimentation with min-width and max-width.
+- Discuss real-world scenarios for using media queries.
+
+## Interview Questions
+1. What is a media query in CSS?
+2. How do you target specific device widths with media queries?
+3. What is the difference between min-width and max-width?
+4. Give an example of a media query for mobile devices.
+5. Why are media queries essential for responsive design?

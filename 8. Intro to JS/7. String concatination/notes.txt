@@ -1,0 +1,20 @@
+String Concatenation Summary
+
+What is String Concatenation?
+Concatenation joins strings together using the plus (+) operator. 
+Only content inside quotation marks is combined.
+
+Example: "hello" + " " + "world" = "hello world"
+
+Key Points:
+• Use + to combine strings
+• Spaces must be explicitly included: "hello" + " " + "world"
+• Variables can be concatenated: message + " " + name
+• Only quoted content is joined together
+
+Practice Challenge:
+Create variables: message = "Hello" and name = your name
+Write: alert(message + " " + name)
+
+Important: Always include spaces between words as separate strings 
+or within existing strings.

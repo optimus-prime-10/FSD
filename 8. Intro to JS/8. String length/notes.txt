@@ -1,0 +1,33 @@
+String Length Property
+
+JavaScript strings have a `length` property that returns the number of characters.
+
+Basic Usage:
+```javascript
+var name = "Somebody";
+console.log(name.length); // Output: 8
+```
+
+Character Counter Example:
+
+Create a simple character counter for tweets:
+
+```javascript
+var tweet = prompt("Compose your tweet:");
+var remaining = 140 - tweet.length;
+alert("You have written " + tweet.length + " characters, " + remaining + " remaining.");
+```
+
+Comments in JavaScript:
+```javascript
+// Single-line comment
+/* Multi-line
+   comment */
+```
+
+Important Notes:
+- Accessing `.length` on null values will cause an error
+- You can use `tweet.length` directly instead of storing in a variable
+- The length property counts all characters including spaces
+
+Key Takeaway: Use `.length` to get the character count of any string for validation, limits, or display purposes.
